@@ -218,7 +218,7 @@ function App() {
                   target="_blank" 
                   className={`inline-flex items-center ${darkMode ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-500'}`}
                 >
-                  Ver repositório <ChevronRight size={16} className="ml-1" />
+                  Ver projeto <ChevronRight size={16} className="ml-1" />
                 </a>
               </div>
             </div>
@@ -244,7 +244,7 @@ function App() {
                   target='_blank'
                   className={`inline-flex items-center ${darkMode ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-500'}`}
                 >
-                  Ver detalhes <ChevronRight size={16} className="ml-1" />
+                  Ver projeto <ChevronRight size={16} className="ml-1" />
                 </a>
               </div>
             </div>
@@ -269,7 +269,7 @@ function App() {
                   target='_blank'
                   className={`inline-flex items-center ${darkMode ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-500'}`}
                 >
-                  Ver detalhes <ChevronRight size={16} className="ml-1" />
+                  Ver projeto <ChevronRight size={16} className="ml-1" />
                 </a>
               </div>
             </div>
