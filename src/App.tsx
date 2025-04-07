@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import gustavoImg from './assets/gustavoPetry.jpg';
+import gustavoImg from './assets/ogustavoimg.jpg';
 import { Code, Database, Globe, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ExternalLink, ChevronRight } from 'lucide-react';
 
 function App() {
@@ -93,7 +93,7 @@ function App() {
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <img 
+            <img
               src={gustavoImg}
               alt="Gustavo Petry" 
               className="w-64 h-64 object-cover rounded-full border-4 border-blue-500 shadow-xl"
