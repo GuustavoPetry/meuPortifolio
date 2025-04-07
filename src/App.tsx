@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
 import gustavoImg from './assets/guustavoPetry.jpg';
+=======
+import gustavoImg from './assets/gustavoPetry.jpg';
+>>>>>>> parent of d0a83fb (nova imagem)
 import { Code, Database, Globe, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ExternalLink, ChevronRight } from 'lucide-react';
 
 function App() {
@@ -93,7 +97,7 @@ function App() {
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <img
+            <img 
               src={gustavoImg}
               alt="Gustavo Petry" 
               className="w-64 h-64 object-cover rounded-full border-4 border-blue-500 shadow-xl"
