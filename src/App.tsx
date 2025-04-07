@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import gustavoImg from './assets/img256.png';
+import gustavoImg from './assets/euGustavoPetry.jpg';
 import { Code, Database, Globe, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ExternalLink, ChevronRight } from 'lucide-react';
 
 function App() {
@@ -75,7 +75,7 @@ function App() {
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6">Desenvolvedor de Software Full Stack</h2>
             <p className="text-lg mb-8 max-w-lg">
-              Especializado em desenvolvimento web e mobile, criando soluções eficientes e elegantes para problemas complexos.
+              Desenvolvedor apaixonado por resolver problemas e criar experiências digitais envolventes para web e mobile.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -108,13 +108,14 @@ function App() {
           <h2 className="text-3xl font-bold mb-8 text-center">Sobre Mim</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-6">
-              Sou um desenvolvedor de software apaixonado por criar soluções tecnológicas que resolvem problemas reais. Com experiência em desenvolvimento web e mobile, tenho trabalhado em diversos projetos que combinam funcionalidade e design intuitivo.
+              Me chamo Gustavo Petry, tenho 26 anos, e sou profissional da indústria metal-mecânica há 7 anos. Durante essa jornada, trabalhei na área de Preparação e Programação de Centros de Usinagem CNC, e atualmente atuo no Controle de Qualidade Dimensional de peças mecânicas, utilizando Máquinas de Medição de Coordenadas de Ponte (CMM's). Nos últimos 2 anos, venho estudando programação com o objetivo de ingressar nessa área em breve.
             </p>
             <p className="text-lg mb-6">
-              Minha jornada na programação começou com Python e Django, e desde então venho expandindo meu conhecimento para incluir tecnologias front-end como HTML, CSS e JavaScript, além de desenvolvimento mobile com Flutter e Dart.
+              Minha trajetória na programação começou com o curso Jovem Programador 2024, onde aprendi a programar nas linguagens Python e JavaScript, criei interfaces gráficas utilizando HTML e CSS, além de trabalhar com Bancos de Dados Relacionais utilizando MySQL. Também tive a oportunidade de desenvolver um projeto FullStack com o Framework Django. Atualmente, estou participando do curso Entra21, uma experiência extremamente enriquecedora. Nesse curso, estou revisitando conceitos fundamentais, como Metodologias Ágeis e Versionamento de Código com Git, além de aprender Dart e usar o Framework Flutter para desenvolver aplicativos móveis com interfaces modernas e focadas nas necessidades do usuário.
+
             </p>
             <p className="text-lg mb-6">
-              Acredito que o bom desenvolvimento de software vai além do código - é sobre entender as necessidades do usuário e criar experiências que sejam tanto funcionais quanto agradáveis.
+              Meu objetivo é ingressar na área como Desenvolvedor Júnior, para poder me desenvolver como profissional e adquirir experiência prática, com o intuito de contribuir de forma significativa para as empresas que me oferecerem a oportunidade. Busco um ambiente dinâmico e colaborativo, onde possa aprender constantemente, expandir minhas habilidades técnicas e crescer profissionalmente, me destacando no mercado de trabalho e sendo um profissional altamente qualificado na área de desenvolvimento de software.
             </p>
             <div className="flex justify-center space-x-6 mt-8">
               <a 
@@ -149,17 +150,8 @@ function App() {
               <div className={`w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-full ${darkMode ? 'bg-blue-900' : 'bg-blue-100'}`}>
                 <Code size={32} className={darkMode ? 'text-blue-300' : 'text-blue-600'} />
               </div>
-              <h3 className="text-xl font-semibold text-center mb-2">Python</h3>
-              <p className="text-center">Desenvolvimento de aplicações backend, scripts de automação e análise de dados.</p>
-            </div>
-            
-            {/* Django */}
-            <div className={`p-6 rounded-lg shadow-md ${darkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-white hover:bg-gray-50'} transition-colors`}>
-              <div className={`w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-full ${darkMode ? 'bg-green-900' : 'bg-green-100'}`}>
-                <Globe size={32} className={darkMode ? 'text-green-300' : 'text-green-600'} />
-              </div>
-              <h3 className="text-xl font-semibold text-center mb-2">Django</h3>
-              <p className="text-center">Criação de aplicações web robustas, APIs RESTful e sistemas de gerenciamento de conteúdo.</p>
+              <h3 className="text-xl font-semibold text-center mb-2">Python/Django</h3>
+              <p className="text-center">Desenvolvimento de aplicações backend, criação de aplicações web robustas, APIs RESTful e sistemas de gerenciamento de conteúdo.</p>
             </div>
             
             {/* HTML/CSS/JS */}
