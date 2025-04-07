@@ -95,7 +95,7 @@ function App() {
           <div className="md:w-1/2 flex justify-center">
             <img
               src={gustavoImg}
-              alt="Gustavo Petry" 
+              alt="Gustavo Petryy" 
               className="w-64 h-64 object-cover rounded-full border-4 border-blue-500 shadow-xl"
             />
           </div>
