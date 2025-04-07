@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import gustavoImg from './assets/gustavoimg.jpg';
-import { Code, Database, Globe, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ExternalLink, ChevronRight } from 'lucide-react';
+import { Code, Database, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ChevronRight } from 'lucide-react';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
