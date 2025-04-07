@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import gustavoImg from './assets/ogustavoimg.jpg';
+import gustavoImg from './assets/img256.png';
 import { Code, Database, Globe, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ExternalLink, ChevronRight } from 'lucide-react';
 
 function App() {
