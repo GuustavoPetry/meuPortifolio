@@ -117,7 +117,7 @@ function App() {
               Atualmente, estou participando do curso Entra21, uma experiência extremamente enriquecedora. Nesse curso, estou revisitando conceitos fundamentais, como Metodologias Ágeis e Versionamento de Código com Git, além de aprender Dart e usar o Framework Flutter para desenvolver aplicativos móveis com interfaces modernas e focadas nas necessidades do usuário.
             </p>
             <p className="text-lg mb-6">
-              Meu objetivo é ingressar na área como Desenvolvedor Júnior, para poder me desenvolver como profissional e adquirir experiência prática, com o intuito de contribuir de forma significativa para as empresas que me oferecerem a oportunidade. Busco um ambiente dinâmico e colaborativo, onde possa aprender constantemente, expandir minhas habilidades técnicas e crescer profissionalmente, me destacando no mercado de trabalho e sendo um profissional altamente qualificado na área de desenvolvimento de software.
+              Meu objetivo é ingressar na área como Desenvolvedor Júnior, para poder me desenvolver como profissional e adquirir experiência prática. Busco um ambiente dinâmico e colaborativo, onde possa aprender constantemente, expandir minhas habilidades técnicas e crescer profissionalmente, me destacando no mercado de trabalho e me sendo um profissional altamente qualificado na área de desenvolvimento de software.
             </p>
             <div className="flex justify-center space-x-6 mt-8">
               <a 
