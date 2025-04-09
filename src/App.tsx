@@ -73,9 +73,9 @@ function App() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Olá, eu sou <span className={darkMode ? 'text-blue-400' : 'text-blue-600'}>Gustavo Petry</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl mb-6">Desenvolvedor de Software Full Stack</h2>
+            <h2 className="text-2xl md:text-3xl mb-6">Desenvolvedor Full Stack em Formação</h2>
             <p className="text-lg mb-8 max-w-lg">
-              Desenvolvedor apaixonado por resolver problemas e criar experiências digitais envolventes para web e mobile.
+              Desenvolvedor apaixonado por resolver problemas lógicos, e criar experiências digitais envolventes para web e mobile.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -106,7 +106,7 @@ function App() {
       <section id="about" className={`py-16 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Sobre Mim</h2>
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg mb-6">
               Me chamo Gustavo Petry, tenho 26 anos, e sou profissional da indústria metal-mecânica há 7 anos. Durante essa jornada, trabalhei na área de Preparação e Programação de Centros de Usinagem CNC, e atualmente atuo no Controle de Qualidade Dimensional de peças mecânicas, utilizando Máquina de Medição por Coordenadas. Nos últimos 2 anos, venho estudando programação com o objetivo de ingressar nessa área em breve.
             </p>
