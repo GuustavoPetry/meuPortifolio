@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import gustavoImg from './assets/gustavoimg.jpg';
+import FormularioBitrix from './components/formularioBitrix';
 import { Code, Database, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ChevronRight } from 'lucide-react';
 
 function App() {
@@ -73,7 +74,7 @@ function App() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Olá, eu sou <span className={darkMode ? 'text-blue-400' : 'text-blue-600'}>Gustavo Petry</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl mb-6">Desenvolvedor Full Stack em Formação</h2>
+            <h2 className="text-2xl md:text-3xl mb-6">Desenvolvedor Full Stack</h2>
             <p className="text-lg mb-8 max-w-lg">
               Desenvolvedor apaixonado por resolver problemas lógicos, e criar experiências digitais envolventes para web e mobile.
             </p>
@@ -117,7 +118,7 @@ function App() {
               Atualmente, estou participando do curso Entra21, uma experiência extremamente enriquecedora. Nesse curso, estou revisitando conceitos fundamentais, como Metodologias Ágeis e Versionamento de Código com Git, além de aprender Dart e usar o Framework Flutter para desenvolver aplicativos mobile com interfaces modernas e focadas nas necessidades do usuário.
             </p>
             <p className="text-lg mb-6">
-              Meu objetivo é ingressar na área como Desenvolvedor Júnior, para poder me desenvolver como profissional e adquirir experiência prática. Busco um ambiente dinâmico e colaborativo, onde possa aprender constantemente, expandir minhas habilidades técnicas e crescer profissionalmente, me destacando no mercado de trabalho e sendo um profissional altamente qualificado na área de desenvolvimento de software.
+              Meu objetivo é ingressar na área como Desenvolvedor, para poder me desenvolver como profissional e adquirir experiência prática. Busco um ambiente dinâmico e colaborativo, onde possa aprender constantemente, expandir minhas habilidades técnicas e crescer profissionalmente, me destacando no mercado de trabalho e sendo um profissional altamente qualificado na área de desenvolvimento de software.
             </p>
             <div className="flex justify-center space-x-6 mt-8">
               <a 
@@ -314,42 +315,7 @@ function App() {
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold mb-4">Envie uma Mensagem</h3>
-              <form className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block mb-1">Nome</label>
-                  <input 
-                    type="text" 
-                    id="name" 
-                    className={`w-full px-4 py-2 rounded-lg ${darkMode ? 'bg-gray-700 border-gray-600' : 'bg-white border-gray-300'} border focus:outline-none ${darkMode ? 'focus:border-blue-400' : 'focus:border-blue-500'}`} 
-                    placeholder="Seu nome"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block mb-1">Email</label>
-                  <input 
-                    type="email" 
-                    id="email" 
-                    className={`w-full px-4 py-2 rounded-lg ${darkMode ? 'bg-gray-700 border-gray-600' : 'bg-white border-gray-300'} border focus:outline-none ${darkMode ? 'focus:border-blue-400' : 'focus:border-blue-500'}`} 
-                    placeholder="Seu email"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block mb-1">Mensagem</label>
-                  <textarea 
-                    id="message" 
-                    rows={4} 
-                    className={`w-full px-4 py-2 rounded-lg ${darkMode ? 'bg-gray-700 border-gray-600' : 'bg-white border-gray-300'} border focus:outline-none ${darkMode ? 'focus:border-blue-400' : 'focus:border-blue-500'}`} 
-                    placeholder="Sua mensagem"
-                  ></textarea>
-                </div>
-                <button 
-                  type="submit" 
-                  className={`px-6 py-3 rounded-lg ${darkMode ? 'bg-blue-500 hover:bg-blue-600' : 'bg-blue-600 hover:bg-blue-700'} text-white font-medium transition-colors`}
-                >
-                  Enviar Mensagem
-                </button>
-              </form>
+              <FormularioBitrix />
             </div>
           </div>
         </div>
