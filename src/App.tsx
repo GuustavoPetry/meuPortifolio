@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import gustavoImg from './assets/gustavoimg.jpg';
 import FormularioBitrix from './components/formularioBitrix';
+import BitrixWidget from './components/bitrixWidget';
 import { Code, Database, Layout, Mail, Menu, Moon, Phone, Sun, X, Github, Linkedin, ChevronRight } from 'lucide-react';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
   };
 
   return (
+    <>
+      <BitrixWidget />
     <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'} transition-colors duration-300`}>
       {/* Header */}
       <header className={`fixed w-full z-10 ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-md`}>
@@ -346,6 +349,7 @@ function App() {
         </div>
       </footer>
     </div>
+    </>
   );
 }
 
